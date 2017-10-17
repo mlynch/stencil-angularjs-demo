@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+myname.loadComponents("lseebauv",function(n,t,i,o,e){var l=function(){function n(){this.date=new Date}return n.prototype.handleClick=function(n){console.log("My Click (internal)"),this.onMyClick.emit(n)},n.prototype.render=function(){var n=this;return t("div",{onClick:function(t){return n.handleClick(t)}},"Hello, my name is ",this.first," ",this.last," on ",this.date.toISOString())},n}();n["MY-NAME"]=l},["MY-NAME",[["config",1],["date",1],["first",1,1],["last",1,1]],{},[["onMyClick"]]]);

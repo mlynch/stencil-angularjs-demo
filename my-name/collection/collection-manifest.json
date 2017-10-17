@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "tag": "my-name",
+      "componentClass": "MyName",
+      "componentPath": "components/my-name/my-name.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/my-name/my-name.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "config"
+        },
+        {
+          "name": "date"
+        },
+        {
+          "name": "first",
+          "type": "string"
+        },
+        {
+          "name": "last",
+          "type": "string"
+        }
+      ],
+      "events": [
+        {
+          "event": "onMyClick"
+        }
+      ]
+    }
+  ],
+  "bundles": [
+    {
+      "components": [
+        "my-name"
+      ]
+    }
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.0.6-13",
+    "typescriptVersion": "2.5.3"
+  }
+}
