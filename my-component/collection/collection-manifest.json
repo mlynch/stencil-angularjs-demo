@@ -1,20 +1,17 @@
 {
   "components": [
     {
-      "tag": "my-name",
-      "componentClass": "MyName",
-      "componentPath": "components/my-name/my-name.js",
+      "tag": "my-component",
+      "componentClass": "MyComponent",
+      "componentPath": "components/my-component/my-component.js",
       "styles": {
         "$": {
           "stylePaths": [
-            "components/my-name/my-name.scss"
+            "components/my-component/my-component.scss"
           ]
         }
       },
       "props": [
-        {
-          "name": "config"
-        },
         {
           "name": "date"
         },
@@ -31,19 +28,20 @@
         {
           "event": "onMyClick"
         }
-      ]
+      ],
+      "slot": "hasSlots"
     }
   ],
   "bundles": [
     {
       "components": [
-        "my-name"
+        "my-component"
       ]
     }
   ],
   "compiler": {
     "name": "@stencil/core",
-    "version": "0.0.6-13",
-    "typescriptVersion": "2.5.3"
+    "version": "0.0.6-21",
+    "typescriptVersion": "2.6.0-rc"
   }
 }

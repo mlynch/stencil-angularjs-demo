@@ -1,0 +1,27 @@
+{
+  "namespace": "mycomponent",
+  "components": [
+    [
+      "my-component",
+      "wlhmgpux",
+      1,
+      [
+        [
+          "first",
+          1,
+          1
+        ],
+        [
+          "last",
+          1,
+          1
+        ]
+      ],
+      0,
+      1
+    ]
+  ],
+  "loader": "../mycomponent.js",
+  "core": "mycomponent.pgqd6iej.js",
+  "corePolyfilled": "mycomponent.gmyarumi.pf.js"
+}

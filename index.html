@@ -4,12 +4,15 @@
     <meta charset="utf-8" />
     <!--<script src='https://unpkg.com/@ionic/core@0.0.2-20/dist/ionic.js'></script>-->
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
-    <script src="my-name/myname.js"></script>
+    <script src="my-component/mycomponent.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
     <script src="app.js"></script>
   </head>
   <body ng-controller="RootCtrl as vm">
-    <my-name-ng first="'Max'" date="vm.myDate" on-my-click="vm.componentClick()"></my-name-ng>
+    <my-component prop-first="'Max'" prop-date="vm.myDate" prop-on-my-click="vm.componentClick($event)">
+      <my-component prop-first="'Max'"><!--date="vm.myDate" on-my-click="vm.componentClick($event)">-->
+      </my-component>
+    </my-component>
     <!--
     <ion-app>
       <ion-page class="show-page" ng-controller="RootCtrl">

@@ -1,10 +1,9 @@
 import { EventEmitter } from '@stencil/core';
-export declare class MyName {
+export declare class MyComponent {
     first: string;
     last: string;
-    config: any;
     date: Date;
     onMyClick: EventEmitter;
-    handleClick(e: any): void;
+    handleClick(e: Event): void;
     render(): JSX.Element;
 }

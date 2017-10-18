@@ -1,2 +1,0 @@
-/*! Built with http://stenciljs.com */
-myname.loadComponents("tp0uk2kc",function(t,n,o,e,i){var a=function(){function t(){this.date=new Date}return t.prototype.render=function(){return console.log("You gave me a complex config",this.config),n("div",null,"Hello, my name is ",this.first," ",this.last," on ",this.date.toISOString())},t}();t["MY-NAME"]=a},["MY-NAME",[["config",1],["date",1],["first",1,1],["last",1,1]],{}]);
